@@ -1,5 +1,4 @@
-private static final String URL = System.getenv().getOrDefault(
-    "PIMS_DB_URL", "jdbc:mysql://localhost:3306/healthfirst_pims?...");
+import java.sql.*;
 
 class DB {
     private static final String URL = System.getenv().getOrDefault(
